@@ -53,18 +53,17 @@
   position: relative;
   font-family: "inter", Arial, sans-serif;
   font-style: normal;
-  max-width: 635px;
+  font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
   max-width: 709px;
-  font-weight: 500;
   left: 80px;
 }
 
 .header__span-accent {
   display: flex;
-  font-family: "Noto Serif", Times, serif;
+  font-family: "Noto Serif", Times, sans-serif;
   font-style: italic;
   font-weight: normal;
   font-size: 58px;
