@@ -172,7 +172,7 @@
   position: relative;
   font-family: "inter", Arial, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500px;
   font-size: 20px;
   line-height: 30px;
   margin-top: 24px;
@@ -182,12 +182,14 @@
 
 .recipes__videos {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-bottom: 215px;
-  margin-top: 204px;
+  flex-direction: column;
+  position: relative;
+  font-family: "inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  max-width: 580px;
+  left: 80px;
 }
 
 .recipes__videos-item {
