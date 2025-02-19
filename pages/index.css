@@ -111,10 +111,10 @@
 }
 
 .header__footer {
-  margin-top: auto;
+  margin-top: auto 0 40px;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   box-sizing: border-box;
 }
@@ -128,7 +128,6 @@
   color: #838383;
   margin: 0;
   margin-left: 80px;
-  margin-bottom: 40px;
 }
 
 .header__paragraph {
@@ -143,7 +142,6 @@
 
 .header__address {
   margin: 0;
-  margin-bottom: 40px;
   color: #838383;
   margin-right: 80px;
 }
