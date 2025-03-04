@@ -209,3 +209,24 @@
   margin-top: 24px;
   align-items: center;
 }
+
+.section__reservation {
+  display: flex;
+  flex-direction: column;
+  background-color: #2f80ed;
+  color: #fff;
+  height: 100%;
+  background-image: url("../images/background_recipes.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section__reservation-title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  max-width: 580px;
+  margin-left: 80px;
+}
